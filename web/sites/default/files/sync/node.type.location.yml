@@ -1,0 +1,17 @@
+uuid: 635960e1-f6e9-4fcc-8676-9a0529781c0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Location
+type: location
+description: 'We are using this to store information about location.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

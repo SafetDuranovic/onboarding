@@ -1,0 +1,19 @@
+uuid: 333adb47-e067-444e-8c9f-4c3ee9a5b8b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_address
+    - node.type.company
+id: node.company.field_address
+field_name: field_address
+entity_type: node
+bundle: company
+label: Address
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,36 @@
+uuid: 20f9fa5b-0375-4b50-9445-b629884dba74
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.company.field_address
+    - field.field.node.company.field_company_title
+    - field.field.node.company.field_contact_email
+    - field.field.node.company.field_description
+    - field.field.node.company.field_industry
+    - field.field.node.company.field_logo
+    - field.field.node.company.field_phone_number
+    - field.field.node.company.field_website
+    - node.type.company
+  module:
+    - user
+id: node.company.teaser
+targetEntityType: node
+bundle: company
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_address: true
+  field_company_title: true
+  field_contact_email: true
+  field_description: true
+  field_industry: true
+  field_logo: true
+  field_phone_number: true
+  field_website: true

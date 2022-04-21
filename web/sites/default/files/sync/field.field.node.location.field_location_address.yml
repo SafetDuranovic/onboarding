@@ -1,0 +1,19 @@
+uuid: 9c8561ca-ca7b-40f6-aeab-b8fb26b8a17e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location_address
+    - node.type.location
+id: node.location.field_location_address
+field_name: field_location_address
+entity_type: node
+bundle: location
+label: 'Location address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

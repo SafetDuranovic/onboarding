@@ -1,0 +1,17 @@
+uuid: c2fe6880-a0fc-481d-a7c2-9b2fd4b632ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Company
+type: company
+description: 'We are using this to store information about the company.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

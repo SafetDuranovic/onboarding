@@ -1,0 +1,8 @@
+uuid: 114956a3-51db-40bd-b2e9-7ed0f5d195f5
+langcode: en
+status: true
+dependencies: {  }
+name: 'Industry cat'
+vid: industry_cat
+description: ''
+weight: 0
